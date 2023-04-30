@@ -37,9 +37,8 @@ In the first line of input, the number T of test cases is given. Starting from t
 For each test case, output the minimum number of times the little prince must enter/exit the planetary system.
 
 ## 제한 / 制限　/ Limit
+----
 - -1000 ≤ x1, y1, x2, y2, cx, cy ≤ 1000
 - 1 ≤ r ≤ 1000
 - 1 ≤ n ≤ 50
 - 좌표와 반지름은 모두 정수 / 座標と半径はともに整数 / Coordinates and radii are both integers
-
-
