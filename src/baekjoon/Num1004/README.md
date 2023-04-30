@@ -20,6 +20,8 @@ The red solid line is the path that minimizes the number of entering/exiting the
 
 Let's write a program to find the minimum number of times the little prince needs to enter/leave the planetary system given the Milky Way map, starting point, and ending point as above. There are no cases where the boundaries of planetary systems touch or intersect. In addition, if the starting point or the destination point crosses the border of the planetary system, it is not given as an input either.
 
+<img width="630" alt="스크린샷 2023-04-30 오후 5 03 20" src="https://user-images.githubusercontent.com/130284501/235342578-6cdfeab9-76bf-4c34-81a8-b0be0fbc8e13.png">
+
 ## 입력 / 入力 / Input
 ----
 입력의 첫 줄에는 테스트 케이스의 개수 T가 주어진다. 그 다음 줄부터 각각의 테스트케이스에 대해 첫째 줄에 출발점 (x1, y1)과 도착점 (x2, y2)이 주어진다. 두 번째 줄에는 행성계의 개수 n이 주어지며, 세 번째 줄부터 n줄에 걸쳐 행성계의 중점과 반지름 (cx, cy, r)이 주어진다.
