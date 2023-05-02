@@ -64,7 +64,6 @@ public class A066 {
 					}
 				}
 			}
-			System.out.println(stack);
 		}
 		
 		if(!stack.empty()) {
