@@ -1,4 +1,4 @@
-package pazia;
+package paiza.rankB.B130;
 
 import java.util.Scanner;
 
