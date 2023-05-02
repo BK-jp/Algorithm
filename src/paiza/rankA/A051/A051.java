@@ -40,7 +40,6 @@ public class A051 {
 					map[i][j] += Math.max(map[i-1][j], Math.max(map[i-1][j-1], map[i-1][j+1]));
 				}
 			}
-			printMap(map);
 		}
 		
 		int result = 0;
@@ -49,15 +48,5 @@ public class A051 {
 		}
 		
 		return result;
-	}
-	
-	public static void printMap(int[][] map) {
-		for(int[] row : map) {
-			for(int r : row) {
-				System.out.print(r);
-			}
-			System.out.println();
-		}
-		System.out.println();
 	}
 }
