@@ -8,33 +8,33 @@ public class A055 {
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-        String line = sc.nextLine();
-        
-        String[] lineSplit = line.split(" ");
-        
-        H = Integer.valueOf(lineSplit[0]);
-        W = Integer.valueOf(lineSplit[1]);
-        
-        char[][] map = new char[H][W];
-        int[] position = new int[2];
-        
-        for(int i=0;i<H;i++) {
-        	String mapInput = sc.nextLine();
-        	
-        	for(int j=0;j<mapInput.length();j++) {
-        		if(mapInput.charAt(j) == 'S') {
-        			map[i][j] = '.';
-        			position[0] = i;
-        			position[1] = j;
-        		}else {
-        			map[i][j] = mapInput.charAt(j);
-        		}
-        	}
-        }
-        
-        sc.close();
-        
-        System.out.println(escape(map, position[1], position[0]));
+		String line = sc.nextLine();
+
+		String[] lineSplit = line.split(" ");
+
+		H = Integer.valueOf(lineSplit[0]);
+		W = Integer.valueOf(lineSplit[1]);
+
+		char[][] map = new char[H][W];
+		int[] position = new int[2];
+
+		for(int i=0;i<H;i++) {
+			String mapInput = sc.nextLine();
+
+			for(int j=0;j<mapInput.length();j++) {
+				if(mapInput.charAt(j) == 'S') {
+					map[i][j] = '.';
+					position[0] = i;
+					position[1] = j;
+				}else {
+					map[i][j] = mapInput.charAt(j);
+				}
+			}
+		}
+
+		sc.close();
+
+		System.out.println(escape(map, position[1], position[0]));
 	}
 	
 	private static String escape(char[][] map, int x, int y) {
